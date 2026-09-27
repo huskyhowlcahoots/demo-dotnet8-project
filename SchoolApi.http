@@ -1,0 +1,9 @@
+@SchoolApi_HostAddress = http://localhost:5189
+
+### Get all students
+GET {{SchoolApi_HostAddress}}/student/students
+Accept: application/json
+
+### Get potential siblings for the first student (Aarav Mooniyen in this demo)
+GET {{SchoolApi_HostAddress}}/student/potentialSiblings
+Accept: application/json

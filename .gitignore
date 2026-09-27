@@ -1,0 +1,44 @@
+# === OS junk ===
+.DS_Store
+Thumbs.db
+
+# === Logs & temp ===
+*.log
+*.tmp
+
+# === Build outputs ===
+bin/
+obj/
+out/
+dist/
+build/
+
+# === IDE/editor ===
+.vscode/
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+
+# === Dotnet / VS ===
+*.dbmdl
+*.bak
+*.ldf
+*.mdf
+TestResults/
+
+# === Copilot / AI artifacts (2026) ===
+CopilotCache/
+CopilotTemp/
+ProjectEvaluations/
+FileContentIndex/
+CopilotSuggestions/
+CopilotHistory/
+
+# === Environment / secrets ===
+.env
+.env.*
+secrets.json
+*.pem
+*.key
